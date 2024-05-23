@@ -1,2 +1,2 @@
 #!/bin/bash
-./write_ls_cwd_content.sh
+ls -al > ls_cwd_content
