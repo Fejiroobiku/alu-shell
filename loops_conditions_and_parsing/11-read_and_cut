@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Display username, user ID, and home directory of each user from /etc/passwd
 
 exec 3</etc/passwd
