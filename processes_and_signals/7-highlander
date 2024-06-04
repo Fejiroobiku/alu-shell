@@ -1,12 +1,8 @@
 #!/usr/bin/env bash
 # This script stops the 7-highlander process
 
-# Check if the 7-highlander process is running
-if pgrep -f "7-highlander" >/dev/null; then
-  echo "7-highlander is already running"
-else
-  # Start the 7-highlander process
-  ./7-highlander &
-  echo "OK"
-
-fi
+trap 'echo "I am invincible!!!"' 15
+while true; do
+    echo "to infinity and beyond"
+    sleep 2
+done
